@@ -1,0 +1,185 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f1dcdf;
+  color: #323232;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+header {
+  background-image: url("bg2.jpg");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  height: 409px;
+}
+
+.section-details {
+  width: 90%;
+  margin: auto;
+}
+
+p {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.logo-part {
+  width: 90%;
+  margin: auto;
+}
+
+.logo {
+  margin-top: 160px;
+  width: 100%;
+  max-width: 475px;
+}
+
+.icon-img {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.getKey {
+  padding: 20px;
+  background-color: #dcdddd;
+}
+
+.rec-key {
+  min-height: 30px;
+  max-width: 200px;
+  border-radius: 3px;
+  background-color: white;
+  margin: auto;
+  padding: 20px 20px 10px 20px;
+  margin-bottom: 20px;
+}
+
+#output {
+  font-size: 20px;
+  color: #323232;
+}
+
+.addbooks {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.inputtext {
+  background-color: #dcdddd;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 3px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.viewbooks {
+  padding: 20px;
+  background-color: #f1dcdf;
+}
+
+ul {
+  text-align: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #fff;
+  border-radius: 3px;
+  padding: 15px;
+}
+
+.deletebooks {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #dcdddd;
+}
+
+.footer p {
+  font-size: 12px;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: #323232;
+}
+
+a:active {
+  text-decoration: none;
+  color: #323232;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.btn {
+  border: none;
+  color: #323232;
+  background: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-transform: scale(1, 1);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 250ms;
+  -moz-transform: scale(1, 1);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 250ms;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.05, 1.07);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 250ms;
+  -moz-transform: scale(1.05, 1.07);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 250ms;
+}
+
+.btn:active, .btn:visited {
+  border: none;
+  color: #323232;
+  background: white;
+}
+
+.btn-dark {
+  border: none;
+  color: #323232;
+  background: #dcdddd;
+}
+
+span {
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    
+  .section-details {
+    width: 30%;
+  }
+    
+  .logo-part {
+    width: 50%;
+    margin: auto;
+  }
+    
+}

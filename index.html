@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Inlämning 1</title>
+	<script src="script.js">
+	</script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="logo-part">
+            <img alt="librarylogo" class="logo" src="logo.png">
+        </div>
+	</header>
+    
+	<div class="getKey">
+		<img class="icon-img" src="getkey.png">
+		<div class="section-details">
+			<p>To use this webside, you need to get your key first. Click below to get it and start saving your favourite books!</p>
+            <button class="btn" id="getkeyButton">Get your key!</button>
+			<div class="rec-key" id="output"></div>
+		</div>
+	</div>
+    
+	<div class="addbooks">
+		<img class="icon-img" src="addbook.png">
+		<div class="section-details">
+			<p>This is where you add the books you want to save! Type in Title and Author and press save to finish.</p>
+			<form>
+				<br>
+				<br>
+				<input class="inputtext" id="title" name="title" placeholder="Title" type="text"><br>
+				<br>
+				<input class="inputtext" id="author" name="author" placeholder="Author" type="text"><br>
+				<br>
+			</form>
+			<div id="errormessage"></div>
+            <button class="btn btn-dark" id="addbutton">Save it!</button>
+		</div>
+	</div>
+    
+	<div class="viewbooks">
+		<img class="icon-img" src="viewbooks.png">
+		<div class="section-details">
+			<p>Hey book lover! This is where you view your saved books. Just press the button to enter your own library.</p>
+            <button class="btn" id="viewBooks">View my books!</button>
+			<div id="booklist">
+				<ul id="listofbooks"></ul>
+			</div>
+		</div>
+	</div>
+    
+	<div class="deletebooks">
+		<img class="icon-img" src="deletebook.png">
+		<div class="section-details">
+			<p>You can delete a book in your list by typing the id here</p>
+			<form>
+				<br>
+				<br>
+				<input class="inputtext" id="id" name="id" placeholder="Book Id" type="text"><br>
+				<br>
+			</form>
+			<div id="errormessage"></div>
+            <button class="btn btn-dark" id="deletebutton">Delete it!</button>
+		</div>
+	</div>
+    
+	<div class="footer">
+		<div class="section-details">
+			<p>This is the API I've used: <a href="https://www.forverkliga.se/JavaScript/api/crud.php">https://www.forverkliga.se/JavaScript/api/crud.php</a></p>
+		</div>
+	</div>
+</body>
+</html>
